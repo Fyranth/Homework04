@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/flex.css">
+        <script src="./js/main.js"></script>
+        <!--<base target="_blank">-->
+    </head>
+    <body onload="showDivs(1,'slider reb');showDivs(1,'slider emp');">
+        <div id="header"></div>
+        <div id="main_body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="flex_row_evenly">
+                            <div class="col-5">
+                                <div class="slider_box">
+                                    <div class="slider reb">
+                                        <img class="slider_img" src="./img/img_articles/dreadnought.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Alliance navy ships</h4>
+                                            <p>Dreadnought</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider reb">
+                                        <img class="slider_img" src="./img/img_articles/LiberatorCruiser-SWR.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Alliance navy ships</h4>
+                                            <p>Liberator cruiser</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider reb">
+                                        <img class="slider_img" src="./img/img_articles/ActionVITransport-SWR.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Alliance navy ships</h4>
+                                            <p>Action VI transport</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider reb">
+                                        <img class="slider_img" src="./img/img_articles/cr-90.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Alliance navy ships</h4>
+                                            <p>CR-90 class corvette</p>
+                                        </div> 
+                                    </div>
+                                    <button class="slider_button slider_button_left" onclick="plusDivs(-1,'slider reb')">&#10094;</button>
+                                    <button class="slider_button slider_button_right" onclick="plusDivs(+1,'slider reb')">&#10095;</button>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="slider_box">
+                                    <div class="slider emp">
+                                        <img class="slider_img" src="./img/img_articles/Star-Destroyer.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Imperial navy ships</h4>
+                                            <p>Imperial I-class Star Destroyer</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider emp">
+                                        <img class="slider_img" src="./img/img_articles/InterdictorCruiser.gif">
+                                        <div class="slider_img_text">
+                                            <h4>Imperial navy ships</h4>
+                                            <p>Interdictor-class Star Destroyer</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider emp">
+                                        <img class="slider_img" src="./img/img_articles/EscortCarrier-Rebellion.png">
+                                        <div class="slider_img_text">
+                                            <h4>Imperial navy ships</h4>
+                                            <p>Ton-Falk-class escort carrier</p>
+                                        </div> 
+                                    </div>
+                                    <div class="slider emp">
+                                        <img class="slider_img" src="./img/img_articles/Carrack.jpg">
+                                        <div class="slider_img_text">
+                                            <h4>Imperial navy ships</h4>
+                                            <p>Carrack-class light cruiser</p>
+                                        </div> 
+                                    </div>
+                                    <button class="slider_button slider_button_left" onclick="plusDivs(-1,'slider emp')">&#10094;</button>
+                                    <button class="slider_button slider_button_right" onclick="plusDivs(+1,'slider emp')">&#10095;</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="flex_row_around" id="main_menu">
+                                <li class="menu_tab">
+                                    <a class="main_menu_a" href="./index.html"><span class="main_menu_link_text">Главная</span></a>
+                                </li>
+                                <li class="menu_tab">
+                                    <a class="main_menu_a" href="#"><span class="main_menu_link_text">Интересные ссылки</span></a>
+                                    <ul class="sub_menu flex_col_around">
+                                        <li class="menu_tab">
+                                            <a class="main_menu_a" href="http://starwars.com" target="_blank"><span class="main_menu_link_text">Star wars</span></a>       
+                                        </li>
+                                        <li class="menu_tab">
+                                            <a class="main_menu_a" href="http://Lucasfilm.com" target="_blank"><span class="main_menu_link_text">Lucasfilm</span></a>       
+                                        </li>
+                                        <li class="menu_tab">
+                                            <a class="main_menu_a" href="http://starwars.fandom.com/" target="_blank"><span class="main_menu_link_text">Wookieepedia</span></a>       
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="menu_tab">
+                                    <a class="main_menu_a" href="./addarticle.html"><span class="main_menu_link_text">Добавить запись</span></a>
+                                </li>
+                                <li class="menu_tab">
+                                    <a class="main_menu_a" href="./signin.html"><span class="main_menu_link_text">Войти</span></a>
+                                </li>
+                                <li class="menu_tab">
+                                    <a class="main_menu_a" href="./registration.html"><span class="main_menu_link_text">Зарегистрироваться</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="article">
+                                <h3 class="article_headline">Under Construction!</h3>
+                             
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer">
+                                <p>Star Wars, its characters, costumes, and all associated items are the intellectual property of <a href="http://Lucasfilm.com" class="footer">Lucasfilm. © & ™ Lucasfilm Ltd.</a> All rights reserved. Used under authorization.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>    
+    </body>
+</htm>
